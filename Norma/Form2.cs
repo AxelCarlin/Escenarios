@@ -22,6 +22,14 @@ namespace Norma
             pnlE2H42.BackColor = Color.FromArgb(125, Color.OrangeRed);
             pnlE2H5.BackColor = Color.FromArgb(125, Color.OrangeRed);
             pnlE2H6.BackColor = Color.FromArgb(125, Color.OrangeRed);
+
+            pnlHabitacionUno.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionDos.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionTres.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCuatroUno.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCuatroDos.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCinco.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionSeis.BackColor = Color.FromArgb(130, Color.Black);
         }
 
         private void chlEncendidoApagado_SelectedIndexChanged(object sender, EventArgs e)
@@ -70,7 +78,7 @@ namespace Norma
                 oscuro.BackColor = Color.FromArgb(0, Color.Black);
                 return;
             }
-            oscuro.BackColor = Color.FromArgb(255, Color.Black);
+            oscuro.BackColor = Color.FromArgb(130, Color.Black);
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -83,13 +91,13 @@ namespace Norma
 
             progressBar1.Value = 0;
             lblControles.Text = "Desactivados";
-            pnlHabitacionUno.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionDos.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionTres.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionCuatroUno.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionCuatroDos.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionCinco.BackColor = Color.FromArgb(255, Color.Black);
-            pnlHabitacionSeis.BackColor = Color.FromArgb(255, Color.Black);
+            pnlHabitacionUno.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionDos.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionTres.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCuatroUno.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCuatroDos.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionCinco.BackColor = Color.FromArgb(130, Color.Black);
+            pnlHabitacionSeis.BackColor = Color.FromArgb(130, Color.Black);
         }
 
         private void timer1_Tick(object sender, EventArgs e)

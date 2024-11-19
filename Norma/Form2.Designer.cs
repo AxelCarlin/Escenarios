@@ -116,10 +116,10 @@
             tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
-            tabControl1.Location = new Point(306, -1);
+            tabControl1.Location = new Point(306, 2);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1231, 683);
+            tabControl1.Size = new Size(1231, 680);
             tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -132,7 +132,7 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1223, 655);
+            tabPage1.Size = new Size(1223, 652);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
             // 
@@ -144,7 +144,7 @@
             groupBox2.Controls.Add(checkBox1);
             groupBox2.Controls.Add(progressBar1);
             groupBox2.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            groupBox2.Location = new Point(827, 427);
+            groupBox2.Location = new Point(827, 424);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(289, 202);
             groupBox2.TabIndex = 4;
@@ -551,6 +551,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
